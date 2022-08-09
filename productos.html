@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <title>Document</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
        <nav>
         <ul>
             <a href="index.html" class="nav-barra">Home</a>
@@ -21,12 +23,50 @@
     </nav>
 
 
-    <h1 class="heading2">NUESTROS PRODUCTOS</h1>
-    <br>
+    <h1 class="heading2">NUESTROS TRABAJOS</h1>
+    
 
-        <p class="parrafo3">Mira nuestros productos de fotografia</p>    
-    <br><br>
+        <p class="parrafo3">  Mira nuestros productos de fotografia</p>    
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../coder-lukassc/img/galeria1.jpg" class="d-block w-100" alt="Imagen 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TRANQUILIDAD</h5>
+              <p>Podemos encontrar tranquilidad en los lugares mas comunes.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../coder-lukassc/img/galeria5.jpg" class="d-block w-100" alt="Imagen 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>REFLEJO</h5>
+              <p>La imagen de lo que queremos ser.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../coder-lukassc/img/galeria9.jpg" class="d-block w-100" alt="Imagen 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BONDAD</h5>
+              <p>Encontremos la bondad en los lugares mas inesperados.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
         <footer class="footer">
             <div class="contenedor">
